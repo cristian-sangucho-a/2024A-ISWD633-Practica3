@@ -10,4 +10,4 @@ Un volumen es un mecanismo para persistir datos generados y utilizados por conte
 
 ![Volúmenes](imagenes/volumenes.PNG)
 
-## Es importante recordar que los volúmenes deben configurarse durante la creación del contenedor, ya que Docker no permite cambiar los volúmenes montados una vez que el contenedor ha sido creado
+### Es importante recordar que los volúmenes deben configurarse durante la creación del contenedor, ya que Docker no permite cambiar los volúmenes montados una vez que el contenedor ha sido creado
