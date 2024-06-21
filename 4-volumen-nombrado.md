@@ -39,7 +39,7 @@ docker run -d --name <nombre contenedor> -v <nombre volumen>:<ruta contenedor> <
 
 ### Crear un servidor postgres vinculado a la red net-drupal, completar la ruta del contenedor
 ```
-docker run -d --name server-postgres -e POSTGRES_DB=db_drupal -e POSTGRES_PASSWORD=12345 -e POSTGRES_USER=user_drupal -v vol-postgres:<ruta contenedor> --network net-drupal postgres
+docker run -d --name server-postgres -e POSTGRES_DB=db_drupal -e POSTGRES_PASSWORD=12345 -e POSTGRES_USER=user_drupal --network net-drupal postgres
 ```
 _No es necesario exponer el puerto, debido a que nos vamos a conectar desde la misma red de docker_
 
@@ -55,7 +55,7 @@ docker run -d --name client-postgres --publish published=9500,target=80 -e PGADM
 
 ### Crear el contenedor server-drupal vinculado a la red, usar la imagen drupal, y vincularlo a los volúmenes nombrados
 ```
-docker run -d --name server-drupal --publish published=9700,target=80 -v <nombre volumen>:<ruta contenedor> --network net-drupal drupal
+docker run -d --name server-drupal --publish published=9700,target=80 -v <nombre volumen>:<ruta contenedor> -v <nombre volumen>:<ruta contenedor> -v <nombre volumen>:<ruta contenedor> -v <nombre volumen>:<ruta contenedor> --network net-drupal drupal
 ```
 
 ### Ingrese al server-drupal y siga el paso a paso para la instalación.
