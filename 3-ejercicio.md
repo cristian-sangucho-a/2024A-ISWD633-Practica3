@@ -19,7 +19,7 @@ Ruta carpeta host: .../ejercicio3/db
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### Para que persista la información es necesario conocer en dónde wordpress almacena la información.
-# COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/)
+# COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/
 En el esquema del ejercicio la carpeta contenedor (b) es (COMPLETAR CON LA RUTA)
 Ruta carpeta host: .../ejercicio3/www
 
